@@ -14,6 +14,9 @@
 		1685D55D29E4E6F000A059BC /* meiuca_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D55C29E4E6F000A059BC /* meiuca_IOSTests.swift */; };
 		1685D56729E4E6F000A059BC /* meiuca_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D56629E4E6F000A059BC /* meiuca_IOSUITests.swift */; };
 		1685D56929E4E6F000A059BC /* meiuca_IOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1685D56829E4E6F000A059BC /* meiuca_IOSUITestsLaunchTests.swift */; };
+		4C9E1D9932C4CC2B97B20F31 /* Pods_meiuca_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE72191F424F4346916E97D /* Pods_meiuca_IOS.framework */; };
+		8EE563EA761FBFFC0C05B61E /* libPods-meiuca_IOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DF5ED30746614796CD760A /* libPods-meiuca_IOSTests.a */; };
+		BA3D749AF241E523D16962B0 /* libPods-meiuca_IOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6D5247C4E1B3728BCA8D96 /* libPods-meiuca_IOSUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,15 @@
 		1685D56229E4E6F000A059BC /* meiuca_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meiuca_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1685D56629E4E6F000A059BC /* meiuca_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiuca_IOSUITests.swift; sourceTree = "<group>"; };
 		1685D56829E4E6F000A059BC /* meiuca_IOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meiuca_IOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22D80B14699A7CD154991E54 /* Pods-meiuca_IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-meiuca_IOSUITests/Pods-meiuca_IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30DE4DEF33E588DEEE0D029D /* Pods-meiuca_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOS.debug.xcconfig"; path = "Target Support Files/Pods-meiuca_IOS/Pods-meiuca_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		44E413F873E2D5EDC3265AA8 /* Pods-meiuca_IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-meiuca_IOSUITests/Pods-meiuca_IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49BB52DCEC4F78A37C0263EF /* Pods-meiuca_IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-meiuca_IOSTests/Pods-meiuca_IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E6D5247C4E1B3728BCA8D96 /* libPods-meiuca_IOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meiuca_IOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DF5ED30746614796CD760A /* libPods-meiuca_IOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meiuca_IOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99D8A62EDEB698DF5E85C09 /* Pods-meiuca_IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOSTests.release.xcconfig"; path = "Target Support Files/Pods-meiuca_IOSTests/Pods-meiuca_IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBE72191F424F4346916E97D /* Pods_meiuca_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meiuca_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83F9A7FBD259D5F11882F0D /* Pods-meiuca_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meiuca_IOS.release.xcconfig"; path = "Target Support Files/Pods-meiuca_IOS/Pods-meiuca_IOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9E1D9932C4CC2B97B20F31 /* Pods_meiuca_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE563EA761FBFFC0C05B61E /* libPods-meiuca_IOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3D749AF241E523D16962B0 /* libPods-meiuca_IOSUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,8 @@
 				1685D55B29E4E6F000A059BC /* meiuca_IOSTests */,
 				1685D56529E4E6F000A059BC /* meiuca_IOSUITests */,
 				1685D54929E4E6EE00A059BC /* Products */,
+				78D3CE295F24D98BA3E81966 /* Pods */,
+				91F9E06A1B98A31A3681AE0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = meiuca_IOSUITests;
 			sourceTree = "<group>";
 		};
+		78D3CE295F24D98BA3E81966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30DE4DEF33E588DEEE0D029D /* Pods-meiuca_IOS.debug.xcconfig */,
+				F83F9A7FBD259D5F11882F0D /* Pods-meiuca_IOS.release.xcconfig */,
+				49BB52DCEC4F78A37C0263EF /* Pods-meiuca_IOSTests.debug.xcconfig */,
+				B99D8A62EDEB698DF5E85C09 /* Pods-meiuca_IOSTests.release.xcconfig */,
+				22D80B14699A7CD154991E54 /* Pods-meiuca_IOSUITests.debug.xcconfig */,
+				44E413F873E2D5EDC3265AA8 /* Pods-meiuca_IOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91F9E06A1B98A31A3681AE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBE72191F424F4346916E97D /* Pods_meiuca_IOS.framework */,
+				95DF5ED30746614796CD760A /* libPods-meiuca_IOSTests.a */,
+				5E6D5247C4E1B3728BCA8D96 /* libPods-meiuca_IOSUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1685D56C29E4E6F000A059BC /* Build configuration list for PBXNativeTarget "meiuca_IOS" */;
 			buildPhases = (
+				0E1B0B0B81D73B82692CC03A /* [CP] Check Pods Manifest.lock */,
+				99ED2BBAAFAB888184A6D8C8 /* [CP-User] Run Flutter Build meiuca_challenge Script */,
 				1685D54429E4E6EE00A059BC /* Sources */,
 				1685D54529E4E6EE00A059BC /* Frameworks */,
 				1685D54629E4E6EE00A059BC /* Resources */,
+				260FAC43E3DE03190AF1D6E1 /* [CP-User] Embed Flutter Build meiuca_challenge Script */,
 			);
 			buildRules = (
 			);
@@ -151,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1685D56F29E4E6F000A059BC /* Build configuration list for PBXNativeTarget "meiuca_IOSTests" */;
 			buildPhases = (
+				C2F062E273E413EC641CAB2C /* [CP] Check Pods Manifest.lock */,
 				1685D55429E4E6F000A059BC /* Sources */,
 				1685D55529E4E6F000A059BC /* Frameworks */,
 				1685D55629E4E6F000A059BC /* Resources */,
@@ -169,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1685D57229E4E6F000A059BC /* Build configuration list for PBXNativeTarget "meiuca_IOSUITests" */;
 			buildPhases = (
+				A5ED76C627F9AD9D5F50FFC8 /* [CP] Check Pods Manifest.lock */,
 				1685D55E29E4E6F000A059BC /* Sources */,
 				1685D55F29E4E6F000A059BC /* Frameworks */,
 				1685D56029E4E6F000A059BC /* Resources */,
@@ -251,6 +297,95 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1B0B0B81D73B82692CC03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiuca_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		260FAC43E3DE03190AF1D6E1 /* [CP-User] Embed Flutter Build meiuca_challenge Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build meiuca_challenge Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../meiuca_challenge/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		99ED2BBAAFAB888184A6D8C8 /* [CP-User] Run Flutter Build meiuca_challenge Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build meiuca_challenge Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../meiuca_challenge/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		A5ED76C627F9AD9D5F50FFC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiuca_IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F062E273E413EC641CAB2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-meiuca_IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1685D54429E4E6EE00A059BC /* Sources */ = {
@@ -411,6 +546,7 @@
 		};
 		1685D56D29E4E6F000A059BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DE4DEF33E588DEEE0D029D /* Pods-meiuca_IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,6 +575,7 @@
 		};
 		1685D56E29E4E6F000A059BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83F9A7FBD259D5F11882F0D /* Pods-meiuca_IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,6 +604,7 @@
 		};
 		1685D57029E4E6F000A059BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BB52DCEC4F78A37C0263EF /* Pods-meiuca_IOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +624,7 @@
 		};
 		1685D57129E4E6F000A059BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99D8A62EDEB698DF5E85C09 /* Pods-meiuca_IOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +644,7 @@
 		};
 		1685D57329E4E6F000A059BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D80B14699A7CD154991E54 /* Pods-meiuca_IOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +662,7 @@
 		};
 		1685D57429E4E6F000A059BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E413F873E2D5EDC3265AA8 /* Pods-meiuca_IOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
